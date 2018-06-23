@@ -38,5 +38,6 @@ class Song
       return Song.find_by_name(song)
     else
       Song.create_by_name(song)
+    end
   end
 end
