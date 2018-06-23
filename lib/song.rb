@@ -55,4 +55,10 @@ class Song
     return song
   end
 
+  def self.create_from_filename(filename)
+    song = Song.create_from_filename(filename)
+    @@all << song
+    return song
+
+
 end
