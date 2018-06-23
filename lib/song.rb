@@ -37,7 +37,7 @@ class Song
     if @@all.include? song
       return Song.find_by_name(song)
     else
-      Song.create_by_name(song)
+      return Song.create_by_name(song)
     end
   end
 end
