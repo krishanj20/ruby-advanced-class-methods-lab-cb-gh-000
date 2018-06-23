@@ -59,6 +59,7 @@ class Song
     song = Song.create_from_filename(filename)
     @@all << song
     return song
+  end
 
 
 end
